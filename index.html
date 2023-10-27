@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - AmaniAdmin</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+   <!-- ======= Header ======= -->
+   <header id="header" class="header fixed-top d-flex pt-2 pr-4 p-4" style=" background-color: #563D7C;">
+
+    <div class="d-inline pt-2">
+        <a href="index.html" class="logo ">
+            <span class="d-none d-lg-block" style="color: #fff;">پردازش</span>
+        </a>
+
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ">
+        <ul class="d-flex ">
+
+
+            <li class="nav-item dropdown">
+
+                <a class="nav-link nav-icon" style="color: #fff;" href="login.html">
+                    لاگین</a><!-- End Notification Icon -->
+
+
+            </li><!-- End Notification Nav -->
+
+
+
+        </ul>
+    </nav><!-- End Icons Navigation -->
+
+
+
+</header><!-- End Header -->
+
+
+
+  <main id="" class="p-4">
+
+    <div class="pagetitle mt-5">
+
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-10">
+          <div class="row">
+            <!-- Customers Card -->
+            <div class="col-xxl-4 col-xl-12">
+              <div class="card-body">
+
+                <!-- Default Tabs -->
+                <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                  <li class="nav-item flex-fill" role="presentation">
+                    <button class="nav-link w-100" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-justified"
+                      type="button" role="tab" aria-controls="home" aria-selected="false" tabindex="-1">
+                      <i class="bi bi-person-fill-check" style="font-size: 28px;"></i></button>
+                  </li>
+                  <li class="nav-item flex-fill" role="presentation">
+                    <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab"
+                      data-bs-target="#profile-justified" type="button" role="tab" aria-controls="profile"
+                      aria-selected="false" tabindex="-1"><i class="bi bi-person-plus-fill" style="font-size: 28px;"></i></button>
+                  </li>
+                  <li class="nav-item flex-fill" role="presentation">
+                    <button class="nav-link w-100 active" id="contact-tab" data-bs-toggle="tab" title="hello"
+                      data-bs-target="#contact-justified" type="button" role="tab" aria-controls="contact"
+                      aria-selected="true"><i class="bi bi-person-video2" style="font-size: 28px;"></i></button>
+                  </li>
+                </ul>
+                <div class="tab-content pt-2" id="myTabjustifiedContent">
+                  <div class="tab-pane fade" id="home-justified" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row mb-3">
+                      <label for="inputText" class="col-1 col-form-label">Username</label>
+                      <div class="col-5">
+                        <input type="text" class="form-control">
+                        <button class="btn btn-primary " style="margin-top: 5px;">Start</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="profile-justified" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row mb-3">
+                      <label for="inputText" class="col-1 col-form-label">Username</label>
+                      <div class="col-5">
+                        <input type="text" class="form-control">
+                        <button class="btn btn-success p-2" style="margin-top: 5px;">Start</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade active show" id="contact-justified" role="tabpanel"
+                    aria-labelledby="contact-tab">
+                    <div class="col-12">
+                      <div class="row mb-3">
+                        <label for="inputText" class="col-1 col-form-label">Username</label>
+                        <div class="col-5">
+                          <input type="text" class="form-control">
+                          <form role="form">
+                            <div class="form-group">
+                              <div class="checkbox mt-4">
+                                <label>
+                                  <input type="checkbox" class="check" id="checkAll"> انتخاب همه
+                                </label>
+                              </div>
+
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" class="check"> کاربران لایک کننده
+                                </label>
+                              </div>
+
+
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" class="check"> پردازش تصویر
+                                </label>
+                              </div>
+                          </form>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal_index"  style="margin-top: 10px;">Start</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Default Tabs -->
+                </div>
+              </div>
+
+            </div><!-- End Customers Card -->
+
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-2">
+
+          <!-- Recent Activity -->
+
+          <!-- Revenue Card -->
+          <div class="col-12">
+            <div class="card info-card revenue-card">
+
+
+              <div class="card-body">
+                <h5 class="card-title">تعداد کاربران</h5>
+
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <div class="ps-3">
+                    <h6 class="countusers"></h6>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End Revenue Card -->
+          </div><!-- End Recent Activity -->
+
+
+
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  
+    <!-- Modal -->
+<div class="modal fade" id="modal_index" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">توجه!!!</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>        باز زدن بر دکمه تایید نهایی برنامه شروع به جمع اوری اطلاعات میکند
+        </h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">تایید نهایی</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $("#checkAll").click(function () {
+      $(".check").prop('checked', $(this).prop('checked'));
+    });
+
+  </script>
+  <script src="sqlite3.js"></script>
+</body>
+
+</html>
