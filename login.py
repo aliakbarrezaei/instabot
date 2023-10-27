@@ -42,7 +42,7 @@ def main(username,password):
     global Login_page
     Login_page = LogInPage(browser)
     Login_page.login(username,password)
-LogInPage = None
+Login_page = None
 
 
 main()   #call this function
