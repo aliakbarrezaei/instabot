@@ -1,0 +1,25 @@
+const { Builder, By, Key, until } = require('selenium-webdriver');
+
+async function main(username = 'aha.r7996', password = '13501356Ali') {
+  const driver = await new Builder().forBrowser('firefox').build();
+
+  try {
+    await driver.get('https://www.instagram.com/');
+    console.log('The Instagram webpage has been loaded');
+
+    const usernameInput = await driver.findElement(By.name('username'));
+    const passwordInput = await driver.findElement(By.name('password'));
+
+    await usernameInput.sendKeys(username);
+    await passwordInput.sendKeys(password);
+
+    const loginButton = await driver.findElement(By.xpath("//button[@type='submit']"));
+    await loginButton.click();
+
+    await driver.sleep(15000);
+  } finally {
+    await driver.quit();
+  }
+}
+
+main();
