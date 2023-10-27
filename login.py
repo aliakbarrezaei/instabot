@@ -36,7 +36,7 @@ class LogInPage:
                     pass
         sleep(15)
 
-def main(username,password):
+def main(username='aha.r7996',password='13501356Ali'):
     browser = webdriver.Firefox()
     browser.implicitly_wait(1)
     global Login_page
